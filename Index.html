@@ -1,0 +1,141 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  
+<head>
+<meta charset="UTF-8">
+<title> Nask Tienda Online </title>
+<meta name="viewport" content="width=device-width , user-scalable=no , initial-scale=1.0 , maximum-scale=1.0 , minimum=1.0" >
+<link rel="stylesheet" href="estiloss.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+  <header class="main-header">
+      <div class="container container--flex">
+        <div class="main-header__container">
+          <h1 class="main-header__title">NASK</h1>
+          <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+          <nav class="main-nav" id="main-nav">
+            <ul class="menu">
+              <li class="menu__item"><a href="" class="menu__link">Home</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Hombres</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Mujeres</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Preguntas</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="main-header__container">
+          <span class="main-header__txt">Necesitas ayuda</span>
+          <p class="main-header__txt"><i class="fas fa-phone"></i> Call 12345678099</p>
+        </div>
+        <div class="main-header__container">
+          <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+          <a href="" class="main-header__btn">Mi carrito <i class="fas fa-shopping-cart"></i></a>
+          <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+        </div>
+      </div>
+ 
+	
+    <main class="main">
+      <div class="container">
+        <h2 class="main-title">Nuevos Productos </h2>
+        <section class="container-products">
+          <div class="product">
+            <img src="https://cdn.forbes.com.mx/2021/03/Satan-shoes-mschf-lil-nas-x.jpeg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Air Max 97 x Lil Nas X</h3>
+              <span class="product__price">$1500.00 US</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="data:image/webp;base64,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" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Gucci Vestido Women</h3>
+              <span class="product__price">$2500.00 US</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="https://cdn-images.farfetch-contents.com/16/19/50/45/16195045_33071847_1000.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Balenciaga Camisa Men</h3>
+              <span class="product__price">$1300.00 US</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="https://media.revistagq.com/photos/601403bb4fcf1afab8bb89e1/master/w_1000,c_limit/img01.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h3 class="product__title">Jordan 1 x J Balvin</h3>
+              <span class="product__price">$1000.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-plus"></i>
+          </div>
+        </section>
+        <section class="container__testimonials">
+          <h2 class="section__title">Nostros</h2>
+          <h3 class="testimonial__title">Bear , JP .</h3>
+          <p class="testimonial__txt">iniciadores de esta empresa trataron de buscar lo mejor para sus clientes adoptando criterios especificos para la satisfaccion del cliente.</p>
+        </section>
+      
+        <div class="container-editor">
+          <div class="editor__item">
+            <img src="https://www.backseries.com/wp-content/uploads/nike-air-max-bw.jpg" alt="" class="editor__img">
+            <p class="editor__circle">EXPRESA TU ESTILO AHORA</p>
+          </div>
+          <div class="editor__item">
+            <img src="https://smoda.elpais.com/wp-content/uploads/2017/02/cover44.jpg" alt="" class="editor__img">
+            <p class="editor__circle">EXPRESA TU ESTILO AHORA</p>
+          </div>
+        </div>
+        <section class="container-tips">
+          <div class="tip">
+            <i class="far fa-hand-paper"></i> 
+            <h2 class="tip__title">Satisfaccion de producto</h2>
+            <p class="tip__txt">Productos de Calidad de altos estandares y altas marcas .</p>
+            <a href="" class="btn-shop">One</a>
+          </div>
+          <div class="tip">
+           <i class="fas fa-rocket"></i>
+            <h2 class="tip__title">Envio Rapido y Seguro</h2>
+            <p class="tip__txt">Nuestros envios son rapidos y seguros , contamos con proteccion a ellos.</p>
+            <a href="" class="btn-shop">Click</a>
+          </div>
+          <div class="tip">
+            <i class="fas fa-cog"></i>
+            <h2 class="tip__title">Politicas de Nask</h2>
+            <p class="tip__txt">Nuestras politicas son hacia usted , adoptamos la idea de siempre tener buenos productos.</p>
+            <a href="" class="btn-shop">Away Shop Now</a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="footer__section">
+        <h2 class="footer__title">Creada por</h2>
+        <p class="footer__txt">BEAR Y JP con tutorial</p>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Location :</h2>
+        <p class="footer__txt">Santiago de Queretaro</p>
+        <h2 class="footer__title">Contact</h2>
+        <p class="footer__txt">Phone : +52 4434599544</p>
+        <p class="footer__txt">Email : info@example.com</p>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Links</h2>
+        <a href="" class="footer__link">Home</a>
+        <a href="" class="footer__link">Hombres</a>
+        <a href="" class="footer__link">Mujeres</a>
+        <a href="" class="footer__link">Preguntas</a>
+        <a href="" class="footer__link">Contacto</a>
+      </div>
+      <div class="footer__section">
+        <h2 class="footer__title">Ofertas</h2>
+        <p class="footer__txt">Quieres saber sobre nosotros , nuevos productos , nuevas marcas deja tu email nostros te mandamos la informacion</p>
+        <input type="email" class="footer__input" placeholder="Ingresa tu email">
+      </div>
+      <p class="copy">© 2021 Nask</p>
+    </footer>
+	</html>
